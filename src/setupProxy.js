@@ -4,7 +4,7 @@ module.exports = function(app) {
   app.use(
     '/api',
     createProxyMiddleware({
-      target: 'https://vijay-video-chat-server.herokuapp.com',
+      target: 'https://vijay-video-chat-server.herokuapp.com/',
       changeOrigin: true,
     })
   );
